@@ -1,0 +1,48 @@
+@media (max-width: 1300px) {
+  .plan h3 {
+    font-size: 24px;
+  }
+
+  .plan h4 {
+    font-size: 16px;
+  }
+
+  .plan footer {
+    font-size: 12px;
+  }
+}
+
+@media(max-width: 860px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+
+  .categories .grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .categories {
+    padding: 80px 10px;
+  }
+
+  .growth {
+    padding: 80px 10px;
+  }
+
+  .growth-title {
+    position: unset;
+  }
+
+  .plan h3 {
+    font-size: 16px;
+  }
+
+  .plan h4 {
+    font-size: 12px;
+  }
+
+  .plan footer {
+    font-size: 8px;
+  }
+}
