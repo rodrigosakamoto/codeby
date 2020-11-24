@@ -41,3 +41,105 @@
 .hero button:hover {
   background: var(--gray);
 }
+
+.categories {
+  width: 100%;
+  padding: 80px 130px;
+}
+
+.categories-title {
+  margin-bottom: 80px;
+}
+
+.categories-title h2 {
+  font-size: 48px;
+  font-weight: 600;
+
+  color: var(--black);
+}
+
+.categories-title h3 {
+  font-size: 24px;
+  font-weight: 600;
+
+  color: var(--black);
+}
+
+.categories .grid {
+  display: grid;
+
+  grid-template-areas: 
+    "nature daily daily"
+    "together together together"
+    "analysis analysis pictures"
+  ;
+
+  grid-auto-rows: 460px;
+
+  grid-gap: 20px;
+
+  color: var(--white);
+}
+
+.grid h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.grid h3 {
+  font-size: 24px;
+}
+
+.nature {
+  grid-area: nature;
+
+  background: url('../assets/nature.png') no-repeat;
+  background-size: cover;
+
+  padding: 40px;
+}
+
+.daily {
+  grid-area: daily;
+
+  background: url('../assets/daily.png') no-repeat;
+  background-size: cover;
+
+  padding: 40px;
+}
+
+.together {
+  grid-area: together;
+
+  background: url('../assets/together.png') no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding: 40px;
+}
+
+.analysis {
+  grid-area: analysis;
+
+  background: url('../assets/analysis.png') no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  
+  padding: 40px;
+}
+
+.pictures {
+  grid-area: pictures;
+
+  background: url('../assets/pictures.png') no-repeat;
+  background-size: cover;
+
+  padding: 40px;
+}
+
