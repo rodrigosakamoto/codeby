@@ -10,8 +10,20 @@
   justify-content: space-around;
 }
 
+@keyframes apperfromleft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .hero img {
   width: 160px;
+  animation: apperfromleft 1s;
 }
 
 .hero h1 {
@@ -19,6 +31,8 @@
   font-weight: 600;
   color: var(--white);
   text-align: center;
+
+  animation: apperfromleft 3s;
 }
 
 .hero button {
@@ -35,6 +49,7 @@
   border: 0;
   cursor: pointer;
 
+  animation: apperfromleft 5s;
   transition: background 0.2s;
 }
 
@@ -97,6 +112,11 @@
   background-size: cover;
 
   padding: 40px;
+  transition: transform 0.2s;
+}
+
+.nature:hover {
+  transform: translateX(8px) translateY(8px);
 }
 
 .daily {
@@ -106,6 +126,11 @@
   background-size: cover;
 
   padding: 40px;
+  transition: transform 0.2s;
+}
+
+.daily:hover {
+  transform: translateX(8px) translateY(8px);
 }
 
 .together {
@@ -119,6 +144,11 @@
   justify-content: center;
 
   padding: 40px;
+  transition: transform 0.2s;
+}
+
+.together:hover {
+  transform: translateX(8px) translateY(8px);
 }
 
 .analysis {
@@ -132,6 +162,11 @@
   align-items: flex-end;
   
   padding: 40px;
+  transition: transform 0.2s;
+}
+
+.analysis:hover {
+  transform: translateX(8px) translateY(8px);
 }
 
 .pictures {
@@ -141,6 +176,11 @@
   background-size: cover;
 
   padding: 40px;
+  transition: transform 0.2s;
+}
+
+.pictures:hover {
+  transform: translateX(8px) translateY(8px);
 }
 
 .growth {
@@ -214,24 +254,54 @@
 
 .plan-1 {
   height: 240px;
+  transition: transform 0.2s;
+}
+
+.plan-1:hover {
+  transform: translateX(8px) translateY(-8px);
 }
 
 .plan-2 {
   height: 300px;
+  transition: transform 0.2s;
+}
+
+.plan-2:hover {
+  transform: translateX(8px) translateY(-8px);
 }
 
 .plan-3 {
   height: 366px;
+  transition: transform 0.2s;
+}
+
+.plan-3:hover {
+  transform: translateX(8px) translateY(-8px);
 }
 
 .plan-4 {
   height: 433px;
+  transition: transform 0.2s;
+}
+
+.plan-4:hover {
+  transform: translateX(8px) translateY(-8px);
 }
 
 .plan-5 {
   height: 500px;
+  transition: transform 0.2s;
+}
+
+.plan-5:hover {
+  transform: translateX(8px) translateY(-8px);
 }
 
 .plan-6 {
   height: 566px;
+  transition: transform 0.2s;
+}
+
+.plan-6:hover {
+  transform: translateX(8px) translateY(-8px);
 }
