@@ -1,0 +1,23 @@
+:root {
+  --white: #fff;
+  --black: #383838;
+  --blue: #0087ec;
+  --dark-blue: #005399;
+  --gray: #f4f4f4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*, button, input {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  -webikit-font-smoothing: antialiased;
+}
